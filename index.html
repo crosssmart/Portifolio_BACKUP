@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio Rogerio Filho</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon.ico">
+    
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Icones -->
+    <script src="https://kit.fontawesome.com/19ce1ec299.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <section class="nav-section">
+            <article class="container">
+                <article class="nav-container">
+                    <h1 class="nav-title"><a href="index.php">ROGERIO FILHO</a></h1>
+                    <nav class="nav-menu">
+                        <a href="#home" onclick="fecharMenu();" class="nav-itens">Home</a>
+                        <a href="#sobre" onclick="fecharMenu();" class="nav-itens">Sobre</a>
+                        <a href="#trabalhos" onclick="fecharMenu();" class="nav-itens">Trabalhos</a>
+                        <a href="#contato" onclick="fecharMenu();" class="nav-itens">Contato</a>
+                    </nav>
+                    <button class="button-hamburguer" onclick="abrirMenu();"><i class="fa-solid fa-bars"></i></button>
+                </article>
+            </article>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <section class="Banner" id="home">
+                <div class="ring">
+                    <i class="aro" style="--clr:#7102DC;"></i>
+                    <i class="aro" style="--clr:#fff;"></i>
+                    <i class="aro" style="--clr:#2870ff;"></i>
+
+                    <article class="banner-div">
+                        <p>Oi sou o Rogerio,</p>
+                        <h1>Desenvolvedor <br><strong style="color:#2870ff">FRONT END</strong></h1>
+                        <a href="#sobre">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                    </article>
+                </div>
+            </section>
+        </section>
+
+        <section class="container">
+            <section class="sobre" id="sobre">
+                <h1>SOBRE MIM</h1>
+
+                <article class="sobre-div">
+                    <p>Sou Desenvolvedor Front-End e tenho experiencia com landing pages e sistemas de gestão utilizando bancos de dados. Fiz estágio na empresa Wa Web Design. Alguns dos meus hobbies são: ouvir musica, ler, jogar e criar jogos. </p>
+                </article>
+
+            </section>
+        </section>
+
+        <!-- Habilidades -->
+        <section class="container">
+            <section class="habil" id="habil">
+                <h1>HABILIDADES</h1>
+                <!-- HTML, CSS, JS, MYSQL, PHP, C# -->
+                <ul class="linguas">
+                    <li>
+                        <i class="fa-brands fa-html5"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-square-js"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-php"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-figma"></i>
+                    </li>
+                    <li>
+                        <img src="assets/img/c-sharp.svg" alt="Língua C#" width="90" height="90">
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <section class="container">
+            <section class="trabalhos" id="trabalhos">
+                <h1>TRABALHOS</h1>
+
+                <ul class="projetos">
+                    <li>
+                        <a href="https://www.dehumanos.com.br/cadastro" class="proj-container" target="_blank">
+                            <img src="assets/img/projetos/DehumanosCadastro.png" alt="Imagem do site" class="proj-img">
+                            <p>Dehumanos - Cadastro</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="https://www.dehumanos.com.br/gft" target="_blank">
+                            <img src="assets/img/projetos/Gft.png" alt="Imagem do site" class="proj-img">
+                            <p>Dehumanos GFT</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="https://www.dehumanos.com.br/" target="_blank">
+                            <img src="assets/img/projetos/Dehumanos.png" alt="" class="proj-img">
+                            <p>Dehumanos</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="https://www.dehumanos.com.br/sistema" target="_blank">
+                            <img src="assets/img/projetos/dehumanosSistema.png" alt="" class="proj-img">
+                            <p>Dehumanos - Sistema</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="https://urbantech.com.br/" target="_blank">
+                            <img src="assets/img/projetos/urbantech.png" alt="" class="proj-img">
+                            <p>Urbantech</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="https://condserraverdelimeira.com.br/" target="_blank">
+                            <img src="assets/img/projetos/condominio.png" alt="" class="proj-img">
+                            <p>Sistema Condomínio Serra Verde</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="https://splashcascavel.com.br" target="_blank">
+                            <img src="assets/img/projetos/Splash.png" alt="" class="proj-img">
+                            <p>Splash Cascavel</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </section>
+
+        <!-- contato -->
+        <section class="container">
+            <section class="contato">
+                <h1>Contato</h1>
+                <article class="contato-container">
+                    <div class="contato-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="https://wa.me/5567992997684?text=Entrando%20em%20Contato...">67-992997684</a>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <a href="mailto:rogerio.rhty@outlook.com">rogerio.rhty@outlook.com</a>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fa-brands fa-linkedin outro"></i>
+                        <a href="https://www.linkedin.com/in/rogerio-filho-1436b9319/" target="_blank">Rogerio Filho</a>
+                    </div>
+                </article>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <div id="contato" class="footer-container">
+            <div class="footer-icons">
+                <a href="https://www.instagram.com/rogerio__filho0/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/5567992997684?text=Entrando%20em%20Contato..."><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/rogeriofilhoO" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/rogerio-filho-1436b9319/" target="_blank"><i class="fa-brands fa-linkedin outro2"></i></a>
+            </div>
+            <p>© 2025 Rogerio Filho, All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script async src="assets/js/script.js"></script>
+</body>
+
+</html>
